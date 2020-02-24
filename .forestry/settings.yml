@@ -10,17 +10,17 @@ sections:
   create: none
   match: "*"
 - type: directory
+  path: content/about
+  label: About
+  create: none
+  match: "*"
+- type: directory
   path: content/blog
   label: Post
   create: documents
   match: "*"
   templates:
   - post
-- type: directory
-  path: content/about
-  label: About
-  create: none
-  match: "*"
 - type: directory
   path: data
   label: Data
